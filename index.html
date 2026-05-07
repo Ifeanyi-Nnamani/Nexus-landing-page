@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Build Your Digital Future</title>
+    <script src="https://tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="bg-[#0b0e14] text-white font-sans">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-10 py-6 max-w-7xl mx-auto">
+        <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold">N</div>
+            <span class="text-xl font-semibold tracking-tight">Nexus</span>
+        </div>
+        <div class="hidden md:flex space-x-8 text-gray-400">
+            <a href="#" class="hover:text-white">Home</a>
+            <a href="#" class="hover:text-white">Services</a>
+            <a href="#" class="hover:text-white">About</a>
+            <a href="#" class="hover:text-white">Contact</a>
+        </div>
+        <button class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-md font-medium">Get Started</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-10 py-20 flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 space-y-6">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+                Build Your <span class="text-blue-500">Digital Future</span>
+            </h1>
+            <p class="text-gray-400 text-lg max-w-md">
+                Transform your business with cutting-edge solutions that drive growth and innovation in the digital landscape.
+            </p>
+            <div class="flex space-x-4">
+                <button class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-md font-bold">Start Your Journey</button>
+                <button class="border border-gray-700 hover:bg-gray-800 px-8 py-3 rounded-md font-bold">Learn More</button>
+            </div>
+        </div>
+        <div class="md:w-1/2 mt-12 md:mt-0">
+            <div class="bg-[#151921] p-4 rounded-xl shadow-2xl border border-gray-800">
+                <img src="./images/hero-image.png" alt="Dashboard" class="rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="max-w-7xl mx-auto px-10 py-24 text-center">
+        <h2 class="text-3xl font-bold mb-4">Our Services</h2>
+        <p class="text-gray-400 mb-12">We provide comprehensive solutions to help your business thrive in the digital age</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Service Card 1 -->
+            <div class="bg-[#151921] p-8 rounded-2xl border border-gray-800 text-left hover:border-blue-500 transition">
+                <div class="w-12 h-12 bg-blue-900/30 text-blue-500 rounded-lg flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Web Development</h3>
+                <p class="text-gray-400">Custom websites built with modern technologies for optimal performance.</p>
+            </div>
+            <!-- Add more cards similarly -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-[#0f1218] py-24">
+        <div class="max-w-7xl mx-auto px-10 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="./images/about-image.png" alt="About Nexus" class="rounded-2xl shadow-xl">
+            </div>
+            <div class="md:w-1/2 space-y-6">
+                <h2 class="text-3xl font-bold">About Nexus</h2>
+                <p class="text-gray-400">We are a forward-thinking technology company dedicated to helping businesses navigate the digital transformation journey.</p>
+                <div class="grid grid-cols-2 gap-8 pt-4">
+                    <div>
+                        <p class="text-3xl font-bold text-blue-500">150+</p>
+                        <p class="text-gray-400 text-sm">Projects Completed</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold text-green-500">98%</p>
+                        <p class="text-gray-400 text-sm">Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="max-w-4xl mx-auto px-10 py-24 text-center">
+        <h2 class="text-3xl font-bold mb-2">Get In Touch</h2>
+        <p class="text-gray-400 mb-12">Ready to start your project? Let's discuss how we can help you achieve your goals.</p>
+        
+        <div class="bg-[#151921] p-10 rounded-2xl border border-gray-800 text-left grid md:grid-cols-2 gap-10">
+            <div class="space-y-6">
+                <div class="flex items-center space-x-4">
+                    <span class="text-blue-500">📧</span>
+                    <p class="text-gray-300">hello@nexus.com</p>
+                </div>
+                <!-- Add other contact info -->
+            </div>
+            <form class="space-y-4">
+                <input type="text" placeholder="Your Name" class="w-full bg-[#0b0e14] border border-gray-700 rounded-lg p-3 outline-none focus:border-blue-500">
+                <input type="email" placeholder="Your Email" class="w-full bg-[#0b0e14] border border-gray-700 rounded-lg p-3 outline-none focus:border-blue-500">
+                <textarea placeholder="Your Message" rows="4" class="w-full bg-[#0b0e14] border border-gray-700 rounded-lg p-3 outline-none focus:border-blue-500"></textarea>
+                <button class="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded-lg font-bold">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 py-10">
+        <div class="max-w-7xl mx-auto px-10 flex justify-between items-center text-gray-500 text-sm">
+            <div class="flex items-center space-x-2">
+                <div class="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-[10px]">N</div>
+                <span>Nexus</span>
+            </div>
+            <p>© 2026 Nexus. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-white">Twitter</a>
+                <a href="#" class="hover:text-white">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
